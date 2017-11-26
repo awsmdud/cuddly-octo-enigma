@@ -1,0 +1,12 @@
+body {
+    background-color: rgba(247, 248, 248, 0.555);
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+ fieldset {
+    background-color: rgba(4, 250, 45, 0.863);
+}
+
