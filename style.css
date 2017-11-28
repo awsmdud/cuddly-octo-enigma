@@ -10,3 +10,6 @@ h1 {
     background-color: rgba(4, 250, 45, 0.863);
 }
 
+p {
+    border-style: solid;
+}
