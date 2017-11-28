@@ -6,12 +6,15 @@ function frm2(){
     node.appendChild(textnode);
     document.getElementById("newsfeed").appendChild(node);
     
-    var firstname = document.getElementById('Title');///need to combine the 2
+    var firstname = document.getElementById('Title');///need to combine the 2 (i.e. have username and post)
     var nod = document.createElement("p");
     var textnod = document.createTextNode(Title.value);
     nod.appendChild(textnod);
     document.getElementById("newsfeed").appendChild(nod);
-
+    
+    var firebaseRef= firebase.database().ref();
+    var post_text= Title.value;
+    firebaseRef.push().set(post_text);
     Title.value=''
     lastname.value=''
     /*var lastname = document.getElementById("lastname");
