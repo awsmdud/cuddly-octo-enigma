@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-// 
+
 function frm2(){
 
     var lastname = document.getElementById('lastname');
